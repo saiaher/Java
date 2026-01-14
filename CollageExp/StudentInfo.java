@@ -14,8 +14,6 @@ public class StudentInfo {
         System.out.print("Enter Student ID: ");
         int id = sc.nextInt();
         
-
-
         System.out.print("Enter Student CGPA ");
         double CGPA= sc.nextDouble();
 
@@ -23,13 +21,6 @@ public class StudentInfo {
         System.out.println("Name: " + name);
         System.out.println("ID: " + id);    
         System.out.println("CGPA: " + CGPA);
-
-
-
-
-
-
-
 
     }
 }
