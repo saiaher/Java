@@ -1,17 +1,27 @@
 package CollageExp;
 
+import java.util.Scanner;
+
 public class RuppesToDollerConverter {
 
   
     public static void main(String[] args) {
 
-        double rupees = 1000;     // amount in rupees
-        double dollarRate = 83;   // 1 Dollar = 83 Rupees (example)
+        Scanner sc = new Scanner(System.in);
 
-        double dollars = rupees / dollarRate;
+        System.out.print("Enter amount in Rupees: ");
+        double rs = sc.nextDouble();
 
-        System.out.println("Rupees: " + rupees);
-        System.out.println("Dollars: " + dollars);
+        double rate = 83.50; 
+        double dollar = rs / rate;
+
+        System.out.println(rs + " Rupees = " + dollar + " Dollar");
+
+
+
+        
+
+       
     }
 }
 
