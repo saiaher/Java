@@ -23,7 +23,7 @@ public class Bank {
         int experience = sc.nextInt();
 
         if(savings >= 10000 && debt <= 5000 && experience >= 2){
-            System.out.println(name +"eligicvle for loan");
+            System.out.println(name + "eligicvle for loan");
         } else {
             System.out.println(name + " not eligicvle for loan");
         }
