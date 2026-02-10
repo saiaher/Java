@@ -22,7 +22,8 @@ public class JavaMart {
             System.out.println("You cannot buy the bag");
         }
 
-        System.out.println("Remaining " + wallet);
+        System.out.println("Remaining "
+         + wallet);
     }
     
 }
