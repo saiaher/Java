@@ -5,7 +5,7 @@ public class StdMark {
 
   
 
-public class StudentResult {
+
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
@@ -71,4 +71,4 @@ public class StudentResult {
 }
 
     
-}
+

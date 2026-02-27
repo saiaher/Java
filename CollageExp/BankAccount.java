@@ -35,7 +35,7 @@ public class BankAccount {
         System.out.println("Balance after withdrawal: " + ac.balance);
 
 
-        System.out.println("Account Balance = " + ac.balance);
+        System.out.println("Account Bal " + ac.balance);
 
         
 
