@@ -9,7 +9,6 @@ public class Main {
         System.out.println(p1.nationality);
         System.out.println(p1.dateOfBirth);                 
         System.out.println(p1.seatNumber);
-        
     }
 
     

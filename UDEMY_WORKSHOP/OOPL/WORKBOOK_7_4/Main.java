@@ -16,9 +16,12 @@ public class Main {
         Person p2 = new Person(p1);
 
         System.out.println(p2.getName());
-          System.out.println(p2.getNatioality());
+        System.out.println(p2.getNatioality());
         System.out.println(p2.getBirth());
         System.out.println(p2.getseatNumber());
+        
+
+
 
 
        
