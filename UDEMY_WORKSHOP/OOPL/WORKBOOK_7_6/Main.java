@@ -2,22 +2,30 @@ package UDEMY_WORKSHOP.OOPL.WORKBOOK_7_6;
 import java.util.*;
 
 public class Main {
-
-    private String name;
-    private String nationality;
-    private String dateOfBirth;
-    private String[] passport;
-    private int seatNumber;
-
-
-    public Person(String name, String nationality, String dateOfBirth, int seatNumber) {
+    public static void main(String[] args) {
         
-        this.passport = new String[3];
+        Person p1 =  new Person("sai aher", "indian", "14-11-2006" , 16);
+
+        if (p1.applyPassport()) {
+            p1.setpassport();
+            System.out.println("Applied for Passport");
+        }
+
+        System.out.println(p1.getpassport());
+
+        
+
+        
+ 
+        
+    
+
+
+
     }
 
 
 
 
-   
-    
+
 }
