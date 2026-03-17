@@ -12,12 +12,12 @@ public class Main {
         System.out.println(p1.passport);
         System.out.println(p1.seatNumber);
 
-        //Setting the Values of 
+        //Setting the Values of variable
         p1.name = "sai aher";
         p1.nationality = "indian";
         p1.dateOfBirth = "14-11-2006";
-        String passport[];
-        passport = new String[]{p1.name, p1.nationality,p1.dateOfBirth};
+        
+        p1.passport = new String[]{p1.name, p1.nationality,p1.dateOfBirth};
         p1.seatNumber = 10;
 
 

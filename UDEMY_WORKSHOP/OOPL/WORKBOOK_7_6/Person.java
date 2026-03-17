@@ -62,8 +62,8 @@ public class Person {
 
     }
 
-    public String getpassport(){
-        return Arrays.toString(passport);
+    public String[] getpassport(){
+        return this.passport;
     
     }
 

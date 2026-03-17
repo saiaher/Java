@@ -11,10 +11,9 @@ public class Main {
             System.out.println("Applied for Passport");
         }
 
-        System.out.println(p1.getpassport());
+        System.out.println(Arrays.toString(p1.getpassport()));
 
         
-
         
  
         
