@@ -34,7 +34,7 @@ public class Person {
     }
     
     public void setname(String name){
-        this.name= name;
+        this.name = name;
     }
 
     public String getnationality(){
