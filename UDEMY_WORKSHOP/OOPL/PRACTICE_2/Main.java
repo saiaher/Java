@@ -15,6 +15,12 @@ public class Main {
     System.out.println(copyBook1.getAuthor() );
     System.out.println(copyBook1.getRating() ); 
     System.out.println(copyBook1.getPrice() );
+
+    System.out.println(copyBook2.getTitle() );
+    System.out.println(copyBook2.getAuthor() );
+    System.out.println(copyBook2.getRating() );
+    System.out.println(copyBook2.getPrice() );
+    
 }
 
 

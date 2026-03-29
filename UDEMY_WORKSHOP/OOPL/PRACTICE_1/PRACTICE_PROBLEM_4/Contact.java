@@ -1,8 +1,8 @@
-package UDEMY_WORKSHOP.OOPL.PRACTICE.PRACTICE_PROBLEM_2;
+package UDEMY_WORKSHOP.OOPL.PRACTICE_1.PRACTICE_PROBLEM_4;
 
 import java.time.LocalDate;
 import java.time.Period;
-import java.time.format.DateTimeFormatter;
+
 
 public class Contact {
     
@@ -40,6 +40,10 @@ public class Contact {
         return findAPeriod.getYears();
     }
 
+    
+
+
+
     public String getName() {
         return this.name;
     }
@@ -73,10 +77,15 @@ public class Contact {
         this.age = age;
     }
 
-    // public String toString(){
-    //     return 
-    // }
 
+    public String toString() {
+        return "Name: " + this.name + "\n" +
+            "Phone number: " + this.phonenumber + "\n" +
+            "Birth Date: " + this.birthdate + "\n" +
+            "Age: " + this.age + " year old\n";
+    }
+
+    
 
 }
 
