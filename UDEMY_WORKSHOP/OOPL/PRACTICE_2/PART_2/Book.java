@@ -1,4 +1,4 @@
-package UDEMY_WORKSHOP.OOPL.PRACTICE_2;
+package UDEMY_WORKSHOP.OOPL.PRACTICE_2.PART_2;
 
 public class Book {
 
